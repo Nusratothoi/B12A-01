@@ -25,6 +25,7 @@ body {
 
 .white-bg {
     background-color: rgb(255, 255, 255);
+     padding: 80px 20px;
 }
 
 .text-center {
@@ -44,7 +45,7 @@ main {
  .btn-primary {
     background-color: rgba(78, 71, 255, 1);
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
     color: white;
     padding: 18px 35px;
@@ -235,8 +236,21 @@ nav {
      padding: 60px 20px;
      display: flex;
      justify-content: center; 
-    margin: 50px auto;
+     margin: 50px auto;
    
+}
+
+.focus-button {
+  padding: 12px 25px;    
+  margin-bottom: 40px;
+}
+
+.focus-image img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 32px;
+    display: block;
+    margin: 0 auto;
 }
 
 .contact-container  {
